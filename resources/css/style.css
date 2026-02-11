@@ -165,7 +165,7 @@ header ul li {
 .information .left60 h2 {
     font-size: 2rem;
     line-height: 2.25rem;
-    margin: 2rem 0;
+    margin: 2rem 0 1.5rem 0;
     letter-spacing: +0.02em;
 }
 
@@ -226,3 +226,193 @@ header ul li {
     color: rgb(25, 100, 170);
     font-weight: 400;
 }
+
+/* Courses section */
+
+.courses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 72px;
+    background-color:lightgrey;
+}
+
+.courses h2 {
+    width: 100%;
+    font-size: 2rem;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+    letter-spacing: +0.02em;
+    text-align: center;    
+}
+
+.courses .courseblocks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.courses .courseblock {
+    width: calc(33.333% - 1.5rem);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #fff;
+}
+
+.courses .courseblock img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.courses .courseblock .courseblock-text {
+    margin: 0.5rem 1rem;
+}
+
+.courses .courseblock h3 {
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    font-weight: 500;
+    letter-spacing: +0.02em;
+    margin: 0.5rem 1rem;
+}
+
+.courses .courseblock p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 0.5rem 1rem;
+}
+
+/* Thesis section */
+
+.thesis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1.5rem;
+}
+
+.thesis h2 {
+    width: 100%;
+    font-size: 2rem;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+    letter-spacing: +0.02em;
+    text-align: center;    
+}
+
+.thesis .thesis-blocks {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.thesis .left60 {
+    margin-right: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.thesis .left60 video {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}   
+
+.thesis .left60 .text-container {
+    margin-top: 1.5rem;
+}
+
+.thesis .left60 .text-container h3 {
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    letter-spacing: +0.02em;
+}
+
+.thesis .left60 .text-container p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.thesis .right30 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.thesis .right30 h2 {
+    font-size: 2rem;
+    line-height: 2.25rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: +0.02em;
+}
+
+.thesis .right30 p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.thesis .right40 .boxright {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.thesis .left35 {
+    padding: 1rem;
+}
+
+.thesis .left35 img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.thesis .right65 {
+    text-align: left;
+}
+
+.thesis .right40 h3 {
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    letter-spacing: +0.02em;
+}
+
+.thesis .right40 p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Footer section */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1rem 1.5rem 3rem 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    border-top-color: lightgrey;
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+
+footer ul {
+    display: flex;
+    list-style-type: none;
+}
+
+footer ul li {
+    margin-right: 1.5rem;
+}   
